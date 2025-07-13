@@ -58,7 +58,7 @@ public class main {
                 break;
             } else {
                 System.out.println("E-mail incorreto! Tente novamente.");
-                return;
+
             }
         }
 
@@ -71,7 +71,6 @@ public class main {
 
             } else {
                 System.out.println("Senha incorreta! Tente novamente.");
-                return;
             }
             while (true){
                 if (senhaLogin.equals(Usuario.getSenha()) == true){
